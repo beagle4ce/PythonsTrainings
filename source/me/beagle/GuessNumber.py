@@ -1,6 +1,6 @@
 import random # 引入随机对象
 
-def inputNum(promptStr): # 创建方法
+def inputNum(promptStr = None): # 创建方法 promptStr = None 表示该参数为不可变参数 类似java的final修饰
     guessNumInput = input(promptStr) # 输入文字
     while not guessNumInput.isdigit():  # 判断输入的内容是不是数字类型
         print(guessNumInput, "不是数字")  # 上述判断如果不是数字类型则打印该字符并告知不是数字
