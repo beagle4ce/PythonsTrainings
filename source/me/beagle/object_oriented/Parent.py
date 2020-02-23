@@ -1,6 +1,6 @@
 from me.beagle.object_oriented.Person import Person # 命名空间一定要像这样写全包含到文件名为止,否则会出现 'typeerror module() takes at most 2 arguments (3 given)'错误
 from me.beagle.object_oriented.Gender import Gender # 千万不能这样写 from me.beagle.object_oriented import Gender
-from me.beagle.object_oriented.Abstract import Abstract
+from me.beagle.object_oriented.Abstract import Abstract # 这里是含有抽象方法的继承抽象类基类的自定义抽象类
 
 # __私有变量/对象       __protectObject
 # _受保护的变量/对象     _name
