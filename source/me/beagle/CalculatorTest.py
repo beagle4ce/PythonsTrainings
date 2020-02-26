@@ -12,17 +12,24 @@ print("a - b = ",a - b) # 优先级相对较低
 
 # 下列操作是 计算并赋值 a += b 其实等于 a = a + b
 # a /= b其实等于 a = a / b
+a = 2
 a **= b
 print("a **= b : ", a)
+a = 2
 a *= b
 print("a *= b : ", a)
+a = 2
 a /= b
 print("a /= b : ", a)
+a = 2
 a //= b
 print("a //= b : ", a)
+a = 2
 a %= b
 print("a %= b : ", a)
+a = 2
 a += b
 print("a += b : ", a)
+a = 2
 a -= b
 print("a -= b : ", a)

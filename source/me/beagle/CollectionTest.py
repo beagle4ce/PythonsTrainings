@@ -1,4 +1,4 @@
-set1 = {'abc','def','ghi','ghi'}
+set1 = {'set1','set2','set3','set4'}
 print("set1:", set1)
 set2 = set({'abc1','def1','ghi1','ghi1'})  # 创建空集合需要用set() 因为空{} 是用来创建空字典的
 print("set2:", set2)
@@ -21,7 +21,7 @@ print("dict2:", dict2)
 enum1 = enumerate(["A","B","C","D",])
 print(enum1) # 枚举不能直接输出
 
-
+print("dict1[\"name\"]", dict1["name"]) # 只有字典可以这样获取到，通过Key来获取value
 print(list1[0])
 print(list1[-1])
 print(list1[0:-3])
